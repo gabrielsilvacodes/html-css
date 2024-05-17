@@ -14,9 +14,22 @@ header {
   background-color: rgb(148, 148, 148);
 }
 
-h1 {
+header > h1 {
   padding: 10px;
   text-align: center;
+}
+
+i#burguer {
+  background-color: gray;
+  color: white;
+  display: none;
+  text-align: center;
+  padding: 10px;
+}
+
+i#burguer:hover {
+  background-color: white;
+  color: black;
 }
 
 nav  {
