@@ -22,9 +22,10 @@ header > h1 {
 i#burguer {
   background-color: gray;
   color: white;
-  display: none;
+  display: block;
   text-align: center;
   padding: 10px;
+  cursor: pointer;
 }
 
 i#burguer:hover {
@@ -33,7 +34,7 @@ i#burguer:hover {
 }
 
 nav  {
-  display: block;
+  display: none;
 }
 
 nav > ul {
